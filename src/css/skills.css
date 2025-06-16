@@ -1,0 +1,154 @@
+.headingskills h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(3, 106, 166);
+  text-decoration: underline;
+  margin-top: 5rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-inline: 9rem;
+  margin-top: 3rem;
+}
+.box1 p {
+  margin-top: 1rem;
+  width: 500px;
+}
+
+.box1 h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.box2 .image img {
+  height: 350px;
+  width: 500px;
+  margin-top: 4rem;
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.5rem;
+  color: rgb(3, 106, 166);
+  width: 400px;
+}
+.iconskills {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+@media(max-width:768px){
+  .headingskills h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(3, 106, 166);
+  text-decoration: underline;
+  margin-top: 5rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-inline: 1rem;
+  margin-top: 3rem;
+}
+.box1 p {
+  margin-top: 1rem;
+  width: 400px;
+}
+
+.box1 h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.box2 .image img {
+  height: 300px;
+  width: 400px;
+  margin-top: 4rem;
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+  color: rgb(3, 106, 166);
+  width: 300px;
+}
+.iconskills {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+}
+@media(max-width:425px){
+  .headingskills h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(3, 106, 166);
+  text-decoration: underline;
+  margin-top: 5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-inline: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.box1{
+  text-align: center;
+}
+.box1 p {
+  margin-top: 1rem;
+  width: 400px;
+}
+
+.box1 h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.box2 .image img {
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+}
+.box2{
+  margin-top: 7rem;
+  text-align: center  ;
+  margin-inline: 1rem;
+
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3.2rem;
+  color: rgb(3, 106, 166);
+  width: 350px;
+  padding-left: 4rem;
+}
+.iconskills {
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+}

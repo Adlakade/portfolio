@@ -1,0 +1,24 @@
+.headingcontact h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(3, 106, 166);
+  text-decoration: underline;
+  margin-top: 3rem;
+}
+.form {
+  text-align: center;
+}
+.form input,textarea {
+  border: 1px solid black;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  padding-right: 8rem;
+  border-radius: 10px;
+}
+.form textarea {
+  border: 1px solid black;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  padding-right: 10rem;
+  border-radius: 10px;
+}
