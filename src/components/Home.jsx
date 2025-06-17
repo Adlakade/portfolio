@@ -6,6 +6,7 @@ import Button from "./Button";
 import image from "../assets/coder.png";
 
 const Home = () => {
+
   return (
     <>
       <div className="home">
@@ -19,9 +20,19 @@ const Home = () => {
           </h1>
           <Button btnname={"Contact"} />
           <div className="icon">
-            <div className="icon1"><CiLinkedin /></div>
-            <div className="icon1"><FaGithub /></div>
-            <div className="icon1"><FaGithub /></div>
+            <div className="icon1">
+              <a href="https://www.linkedin.com/in/aditya-lakade-a09849266/" target="_blank" >
+                <CiLinkedin />
+              </a>
+            </div>
+
+            <div className="icon1">
+              <a href="https://github.com/Adlakade/" target="_blank"> <FaGithub /></a>
+             
+            </div>
+            <div className="icon1">
+              <FaGithub />
+            </div>
           </div>
         </div>
         <div className="image">

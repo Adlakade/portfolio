@@ -8,8 +8,17 @@ import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import myimage from "../assets/images/work5.jpg";
 import "../css/skills.css";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+
+  
+      useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
+  
   return (
     <>
       <div className="headingskills" id="skill">
@@ -22,7 +31,7 @@ const Skills = () => {
             Lorem ipsum dlor sit, amet consectetur adipisicing elit. Velit optio
             id vero amet, alias architecto consectetur error eum eaque sit.
           </p>
-          <div className="icons ">
+          <div className="icons " data-aos="fade-down">
             <div className="iconskills">
               <FaHtml5 />
             </div>
@@ -47,7 +56,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="box2">
+        <div className="box2" data-aos="fade-down">
           <div className="image">
             <img src={myimage} alt="image" />
             {/* <img src="../src/assets/images/work5.jpg" alt="" /> */}
