@@ -6,6 +6,10 @@
   margin-top: 5rem;
 }
 
+.headingskills{
+  padding-top: 2rem;
+}
+
 .box {
   display: flex;
   justify-content: space-between;

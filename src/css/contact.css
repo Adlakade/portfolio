@@ -5,9 +5,12 @@
   text-decoration: underline;
   margin-top: 3rem;
 }
+.headingcontact{
+  padding-top: 2rem;
+}
 .form {
   text-align: center;
-}
+} 
 .form input,textarea {
   border: 1px solid black;
   margin-top: 3rem;

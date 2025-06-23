@@ -6,21 +6,19 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 
 const About = () => {
-
-    useEffect(() => {
+  useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
 
-
   return (
-    <div>
-      <div className="about" id="about">
+    <div >
+      <div className="about" id="centre1">
         <h1>About</h1>
         <div className="photopara">
-          <div className="photo " data-aos="zoom-in" >
-            <img  src={image} alt="" />
+          <div className="photo " data-aos="zoom-in">
+            <img src={image} alt="" />
           </div>
-          <div className="para" data-aos="fade-down" >
+          <div className="para" data-aos="fade-down">
             <h2>I am Aditya</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea

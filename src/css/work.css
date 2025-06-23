@@ -5,26 +5,29 @@
   text-decoration: underline;
   margin-top: 3rem;
 }
+.headingwork{
+  padding-top: 2rem;
+}
 
-.imagework {
+.imagework {    
   margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
 
   gap: 2rem;
-  justify-content: space-around;
+  justify-content: space-around;  
   align-items: center;
   /* margin-inline: 20px; */
   /* padding-inline: 10rem; */
 }
 
 .work img {
-    height: 200px;
+  height: 200px;
   width: 320px;
   border-radius: 10px;
 }
 .work img:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
@@ -52,5 +55,5 @@
   }
   .work img:hover {
     transform: scale(1.01);
-  } 
+  }
 }
